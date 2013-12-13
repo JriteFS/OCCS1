@@ -12,21 +12,48 @@ nav li{
 	display: inline;
 }
 
+nav{
+	text-align: right;
+	list-style-type: none;
+	float: right;
+}
+
 li{
 	list-style-type: none;
 }
 
+html{
+
+}
 body{
 	background-color: #f5e5cb;
-	max-width: 996px;
+	margin: 0 auto;
+}
+
+.container{
+	background-color: #f5e5cb;	
 }
 
 h1{
 	background-color: #a0c866;
 }
 
+h2{
+	background-color: #b7b7b7;
+	padding: 0;
+}
+
 footer{
 	background-color: #896761;
+}
+
+#image{
+	border: 3px solid #333;
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+	float: left;
 }
 /* =============================================================================
    Page Styles
